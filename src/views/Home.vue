@@ -20,7 +20,7 @@
         <td>{{ item.tag }}</td>
         <td>{{ item.source }}</td>
         <td>{{ item.type }}</td>
-        <td><ion-img :src="item.source" width="140"></ion-img></td>
+        <td><img :src="item.source" width="140" /></td>
       </tr>
     </table>
   </ion-content>
